@@ -176,9 +176,48 @@ git remote -v
 
 git push -u origin master
  - sobe as modificações para o repositório, da maser local para a master remota. Depois de fazer este comando, para subir novamente, é só usar o git push
+ 
+ 
 
 
 SUBIR ARQUIVOS
 
 git push origin master
  - envia o arquivo para a master remota.
+ 
+ CLONAR REPOSITÓRIO
+
+g clone (endereço repositório) (nome do repositório a ser clonado)
+ - Copiar reposítório remoto
+
+FORK
+ - Pega um projeto que não é da pessoa e faz uma cópia.
+ - Pull request, para a pessoa aceitar a contribuição no projeto.
+ - clica no botão de fork, e ele faz uma cópia para o repositório da pessoa que o solicitou.
+ 
+BRANCH
+ - é um ponteiro móvel que leva a um commit
+
+git checkout -b testing
+ - cria a branch "testing"
+
+git branch
+ - mostra as branchs existentes e qual está no momento
+
+git checkout testing
+ - muda de branch para a branch testing
+
+git checkout master
+ - muda de branch para a master
+
+git branch -D testing
+ - apaga a branch testing
+
+MERGE E REBASE
+ - unir os branchs
+
+MERGE
+ - Cria um commit novo para juntar as alterações
+
+REBASE
+ - move o commit para a frente da fila, deixando linear
